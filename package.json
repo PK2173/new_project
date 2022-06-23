@@ -1,0 +1,23 @@
+{
+  "name": "crud_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "start": "nomemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praveen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.1.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7"
+  }
+}
